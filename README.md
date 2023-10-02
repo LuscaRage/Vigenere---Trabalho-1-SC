@@ -22,7 +22,7 @@ O que eu bebi por você dá pra encher um navio E não teve barril que me fez es
 ```
 4. A mensagem cifrada e decifrada será exibida na tela.
 
-# Descrição "Ataque"
+# Parte 2 -  "Ataque"
 
 Agora na parte 2 é requisitado que o programa recebe uma mensagem criptografada em inglês e uma em português. A senha dessas mensagens deve ser recuperada. Deve ser utilizado análise de frequência numérica para o ataque. Este foi feito em python. 
 ## Como usar
