@@ -2,7 +2,9 @@
 #include <string>
 using namespace std;
 
-string senhaRepetida(string senha, string mensagem) { // gera a repetição de senha no local correto
+//Lucas Resende Silveira Reis 180144421
+
+string senhaRepetida(string senha, string mensagem) { // gera a repetiÃ§Ã£o de senha no local correto
     int tamanhoSenha = senha.size();
     int tamanhoMensagem = mensagem.size();
     string senhaGerada = "";
@@ -14,7 +16,7 @@ string senhaRepetida(string senha, string mensagem) { // gera a repetição de sen
             senhaGerada += isupper(charMensagem) ? toupper(charSenha) : tolower(charSenha);
             j++;
         } else {
-            senhaGerada += charMensagem; // Manter caracteres não alfabéticos inalterados
+            senhaGerada += charMensagem; // Manter caracteres nÃ£o alfabÃ©ticos inalterados
         }
     }
     return senhaGerada;
@@ -32,7 +34,7 @@ string geraCriptograma(string senha, string mensagem) {
             char charCifrado = ((charMensagem - shift + senhaGerada[i] - shift + 26) % 26) + shift;
             criptograma += charCifrado;
         } else {
-            criptograma += charMensagem; // Manter caracteres não alfabéticos inalterados
+            criptograma += charMensagem; // Manter caracteres nÃ£o alfabÃ©ticos inalterados
         }
     }
 
@@ -52,7 +54,7 @@ string decifraCriptograma(string senha, string criptograma) { // descptografa ut
             mensagemDecifrada += charDecifrado;
 
         } else {
-            mensagemDecifrada += charCifrado; // Manter caracteres não alfabéticos inalterados
+            mensagemDecifrada += charCifrado; // Manter caracteres nÃ£o alfabÃ©ticos inalterados
         }
     }
 
