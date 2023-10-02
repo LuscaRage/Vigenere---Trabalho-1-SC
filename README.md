@@ -25,13 +25,6 @@ O que eu bebi por você dá pra encher um navio E não teve barril que me fez es
 # Parte 2 -  "Ataque"
 
 Agora na parte 2 é requisitado que o programa recebe uma mensagem criptografada em inglês e uma em português. A senha dessas mensagens deve ser recuperada. Deve ser utilizado análise de frequência numérica para o ataque. Este foi feito em python. 
-## Como usar
-
-Este código tenta quebrar as mensagens criptografadas usando métodos de quebra de cifras Vigenere através de técnicas como o método de Kasiski para descobrir a chave para descriptografia.
-
-Para quebrar a cifra Vigenere e descobrir a chave usada para criptografar uma mensagem, basta fornecer a mensagem criptografada. O script tentará determinar o tamanho da chave e, em seguida, quebrará a cifra usando uma combinação de análise de frequência de letras e o índice de coincidência.
-
-Caso a chave encontrada não satisfaça a descriptografia, digite "n" para que o código encontre uma chave menor que possa ser correta.
 
 ## Como Rodar
 1. Abra um terminal e encontre o arquivo.
