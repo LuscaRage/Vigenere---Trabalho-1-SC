@@ -39,7 +39,7 @@ Caso a chave encontrada não satisfaça a descriptografia, digite "n" para que o
 ```
 pip install unidecode
 ```
-3. Execute o comando python Ataque.py no terminal.
+3. Execute esse comando no terminal.
 ```
 python Parte_2.py
 ```
