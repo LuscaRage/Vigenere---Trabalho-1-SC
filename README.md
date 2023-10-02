@@ -2,7 +2,7 @@
 
 
 
-#  Parte 1 - "Crifrador E Descifrador"
+#  Parte 1 - "Crifrador E Descifrador Vigenère"
 
 Aqui foi pedido para que um cifrador recebesse uma mensagem, e que essa mensagem
 deve ser cifra segundo a cifra Vigenère, para que assim fosse criado um criptograma que
@@ -22,7 +22,7 @@ O que eu bebi por você dá pra encher um navio E não teve barril que me fez es
 ```
 4. A mensagem cifrada e decifrada será exibida na tela.
 
-# Parte 2 -  "Ataque"
+# Parte 2 -  "Ataque a cifra de Vigenère"
 
 Agora na parte 2 é requisitado que o programa recebe uma mensagem criptografada em inglês e uma em português. A senha dessas mensagens deve ser recuperada. Deve ser utilizado análise de frequência numérica para o ataque. Este foi feito em python. 
 
